@@ -1,0 +1,146 @@
+/* nav section */
+.nav-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  background-image: url(../img/banner/banner1.png);
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+.left-div {
+  width: 50%;
+}
+.nav-heading {
+  padding-left: 100px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-title {
+  width: 50%;
+  max-width: 300px;
+}
+
+.btn-contuct {
+  color: #fff;
+
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #f15b22;
+  border: none;
+  padding: 10px;
+}
+
+/* main start */
+
+/* failure person */
+
+.failure-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  margin-top: 200px;
+}
+.failure-person {
+  width: 400px;
+}
+.failure-list {
+  text-decoration: none;
+  list-style: none;
+}
+.fa-check {
+  color: aqua;
+  margin-right: 10px;
+}
+.failure {
+  padding: 0 80px;
+}
+
+/* my plans */
+
+.plans-section {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.plans-heading {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.plans-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.plans-items p {
+  color: #737272;
+  text-align: center;
+
+  font-weight: 500;
+}
+
+/* positive section */
+
+.positive {
+  height: 200px;
+  background-image: url(../img/watch.png), url(../img/gradient2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-blend-mode: multiply;
+  margin: 100px 0;
+}
+
+.positive-dev {
+  padding-top: 50px;
+  margin-left: 300px;
+  color: #fff;
+}
+.btn-positive {
+  background-color: #fff;
+  color: #f15b22;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}
+
+/* fooer section */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 100px;
+  background-color: rgb(41, 37, 37);
+  padding: 100px 0;
+}
+
+.footer-section {
+  width: 50%;
+}
+.future-heading {
+  color: #fff;
+}
+.social-media {
+  margin-left: 50px;
+}
+.subscribe-section {
+}
+.input {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-subs {
+  padding: 10px;
+  color: #f15b22;
+}
